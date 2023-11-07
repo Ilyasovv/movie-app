@@ -133,6 +133,7 @@ window.addEventListener("click", (e) => {
 });
 window.addEventListener("keydown", (e) => {
   if (e.keyCode === 8) {
+    console.log(e.keyCode);
     closeModal();
   }
 });
